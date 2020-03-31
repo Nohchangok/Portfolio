@@ -105,7 +105,8 @@ a:hover {
 
 .paralax-mf {
   position: relative;
-  padding: 8rem 0;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 .display-table {
@@ -142,6 +143,14 @@ a:hover {
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
+}
+.phms_logo{
+  width: 80px;
+  height: 80px;
+}
+
+.phms_list{
+  float: left;
 }
 
 .title-a {
@@ -897,7 +906,13 @@ a:hover {
 }
 
 .testimonial-box .author-test img {
+  width: 1000px;
+  height: 300px;
   margin: 0 auto;
+}
+
+.service{
+ font-size: 1rem;
 }
 
 .testimonial-box .author {
@@ -906,7 +921,7 @@ a:hover {
   font-weight: 600;
   margin: 1rem 0;
   display: block;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
 }
 
 .testimonial-box .comit {
@@ -919,6 +934,22 @@ a:hover {
   margin: 0 auto;
   border-radius: 50%;
   line-height: 1.6;
+}
+
+.phms_img{
+  width: 800px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
+#project1{
+  padding: 3rem 1.25rem;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 768px) {
