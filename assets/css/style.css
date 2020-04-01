@@ -107,6 +107,7 @@ a:hover {
   position: relative;
   padding: 2rem 0;
   width: 100%;
+  height: 585px;
 }
 
 .display-table {
@@ -906,7 +907,7 @@ a:hover {
 }
 
 .testimonial-box .author-test img {
-  width: 1000px;
+  width: 600px;
   height: 300px;
   margin: 0 auto;
 }
@@ -941,6 +942,21 @@ a:hover {
   height: 250px;
   margin: 0 auto;
   margin-bottom: 50px;
+}
+
+.tostring_img{
+  width: 950px;
+  height: 700px;
+  margin: 0 auto;
+ 
+}
+
+.baekjoon_img{
+  background-color: white;
+  width: 800px;
+  height: 250px;
+  margin: 0 auto;
+ 
 }
 
 
