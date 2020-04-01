@@ -948,19 +948,20 @@ a:hover {
   width: 950px;
   height: 700px;
   margin: 0 auto;
- 
+  margin-bottom: 50px;
 }
 
 .baekjoon_img{
   background-color: white;
   width: 800px;
-  height: 250px;
+  height: 0px;
   margin: 0 auto;
  
 }
 
 
-#project1{
+.project1{
+  width: 1140px;
   padding: 3rem 1.25rem;
   background-color: #fff;
   margin-bottom: 3rem;
