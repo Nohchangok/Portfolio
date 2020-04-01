@@ -732,13 +732,21 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.itme{
+  width: 300px;
+  height: 300px;
+  
+}
+
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
   padding-bottom: 4rem;
+  margin: 0 auto;
+    width: 900px;
+    height: 600px;
 }
 
 .about-mf .about-img {
-  margin-bottom: 2rem;
+  
 }
 
 .about-mf .about-img img {
@@ -957,6 +965,23 @@ a:hover {
   height: 0px;
   margin: 0 auto;
  
+}
+
+.modal1{
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+#prev{
+  position: absolute;
+  margin-top: 40%;
+  margin-left: -107%;
+}
+
+#next{
+  position: absolute;
+  margin-top: 40%;
 }
 
 
