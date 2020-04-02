@@ -97,17 +97,16 @@
                     <div class="col-sm-6 col-md-7">
                       <div class="col-sm-6 col-md-5">
                         <div class="itme">
-                          <!-- 사진 변경 -->
-                          <img src="assets/img/노창옥.jpg" class="img-fluid rounded b-shadow-a itme" alt="">
+                          <img src="assets/img/노창옥.jpg" class="img-fluid rounded b-shadow-a itme" style="margin-left:15px;" alt="">
                         </div>
                       </div>
 
                     </div>
-                    <div class="about-info" style="margin: 25px 0 0 30px;">
+                    <div class="about-info" style="margin: 105px 0 0 35px;">
                       <p><span class="title-s">Name: </span> <span>노창옥</span></p>
-                      <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
                       <p><span class="title-s">Email: </span> <span>ckddhr7560@naver.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>010-3609-7560</span></p>
+                      <p><span class="title-s">Github: </span> <span><a href="https://github.com/Nohchangok">https://github.com/Nohchangok</a></span></p>
+
                     </div>
                   </div>
                   
@@ -325,7 +324,10 @@
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
       <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
+
+        <!-- 팝업창 -->
+        <div class="modal-content" style="width: 900px;
+        height: 600px; margin-left: -40%;">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">
               <i class="fas fa-times"></i>
@@ -334,21 +336,14 @@
           <div class="modal-body text-center">
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-lg-10">
+                <div class="col-lg-10" style="height: 600px;">
                   <!-- Portfolio Modal - Title -->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">CAFE TOSTRING</h2>
-                  <!-- Icon Divider -->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-code"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
+                  <h3 class="portfolio-modal-title text-secondary text-uppercase mb-3">CAFE TOSTRING</h3>
+                 
                   <!-- Portfolio Modal - Image -->
 
                   <div>
-                    <img id="tostringimg2" class="modal1 img-fluid rounded mb-2" src="assets/img/Cafe_toString.Main.png" style="height: 300px;" alt="">
+                    <img id="tostringimg2" class="img-fluid rounded mb-2" style="height: 400px;" src="assets/img/tostring_1.png" alt="">
                     <button id="prev" type="button" class="btn btn-dark">이전</button>
                     <button id="next" type="button" class="btn btn-dark">다음</button>
               
@@ -356,7 +351,7 @@
                   
 
                   <!-- Portfolio Modal - Text -->
-                  <p class="mb-2">MySQL를 연동하여 DB에 데이터를 저장하고 관리하는 카페 주문/직원/통계 시스템 개발</p>
+                  <p class="mb-4">MySQL를 연동하여 DB에 데이터를 저장하고 관리하는 카페 주문/직원/통계 시스템 개발</p>
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
@@ -407,6 +402,8 @@
         </div>
       </div>
     </div>
+    
+  
 
 
     <!-- <section id="work" class="portfolio-mf sect-pt4 route">
@@ -743,6 +740,36 @@
 
   <!-- Custom scripts for this template -->
   <script src="assets/js/freelancer.min.js"></script> 
+
+  <script>
+    $("#tostringimg").click(function(){
+  var cnt = 1; //버튼을 찾아가기 위해
+  $("button").click(function(){
+    // 이미지가 10개뿐인데 10개 다음 1로 다시 돌아오게 해줘야함.
+    if($(this).text() == "다음"){
+      console.log("다음이니??");
+      if(cnt < 6){
+        cnt++;
+      }else {
+        cnt = 1;
+      }
+    //1에서 이전을 눌렀을 경우 10 이미지를 보여주게 해줘야함.
+    }else{
+      console.log("이전이니??");
+      if(cnt > 1){
+        cnt--;
+      }else{
+        cnt = 6;
+      }
+    }
+    
+    //숫자에 따른 이미지로 변경.
+    $("#tostringimg2").attr("src","assets/img/tostring_"+cnt+".png")
+  })
+})
+
+
+  </script>
 
 </body>
 
