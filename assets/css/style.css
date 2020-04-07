@@ -143,7 +143,7 @@ a:hover {
 
 /*--/ Title A /--*/
 .title-box {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   height: 1px;
 }
 .phms_logo{
@@ -550,7 +550,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -854,6 +854,10 @@ a:hover {
   font-size: 2rem;
   margin-bottom: 0;
 }
+/*--------------------------------------------------------------
+# ÆË¾÷
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -997,7 +1001,7 @@ a:hover {
 
 
 .project1{
-  padding: 1.25rem 1.25rem;
+  padding: 2rem 1.25rem;
   background-color: #fff;
   margin-bottom: 3rem;
   z-index: 2;
@@ -1140,9 +1144,14 @@ a:hover {
 --------------------------------------------------------------*/
 @media (min-width: 767px) {
   .card-blog {
-    margin-bottom: 1.5rem;
+    border-radius: 5%; border: 1px solid lightgray;
   }
 }
+
+.card-img{
+  border-bottom: 1px solid lightgray;
+}
+
 
 .card-blog .card-body {
   position: relative;
