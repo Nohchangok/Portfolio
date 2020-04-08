@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
   <title>Nohel Portfolio</title>
   <meta content="" name="descriptison">
@@ -11,24 +12,15 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.0.45/css/materialdesignicons.min.css">
-
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- joonmins -->
+  <!-- Demo CSS 필요함-->
+  <link rel="stylesheet" href="../flexslider.css" type="text/css" media="screen" />
+  
   <!-- Custom fonts for this theme -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
@@ -351,31 +343,56 @@
 
         <!-- 팝업창 -->
         <div class="modal-content" style="width: 900px; height: 600px; margin-left: -40%;">
-          <div class="modal-body text-center">
             <div class="container">
-              <div class="row justify-content-center">
+              <div id="container" class="cf">
+                <div id="main" role="main">
+                    <section class="slider">
+                      <div class="flexslider">
+                        <ul class="slides">
+                          <li>
+                            <img src="assets/img/tostring_1.png" />
+                          </li>
+                          <li>
+                            <img src="assets/img/tostring_2.png" />
+                          </li>
+                          <li>
+                            <img src="assets/img/tostring_3.png" />
+                          </li>
+                          <li>
+                            <img src="assets/img/tostring_4.png" />
+                          </li>
+                          <li>
+                            <img src="assets/img/tostring_5.png" />
+                          </li>
+                          <li>
+                            <img src="assets/img/tostring_6.png" />
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              <!-- <div class="row justify-content-center">
                 <div class="col-lg-10" style="height: 600px;">
-                  <!-- Portfolio Modal - Title -->
+                   Portfolio Modal - Title
                   <h3 class="portfolio-modal-title text-secondary text-uppercase mb-3">CAFE TOSTRING</h3>
 
-                  <!-- Portfolio Modal - Image -->
+                   Portfolio Modal - Image 
                   <div>
                     <img id="tostringimg2" class="img-fluid rounded mb-2" style="height: 400px;" src="assets/img/tostring_1.png" alt="">
-                    <button type="button" class="btn btn-dark prev">이전</button>
-                    <button type="button" class="btn btn-dark next">다음</button>
-                    <!-- <button type="button" class="btn btn-dark next" ></button> -->
-                    <!-- <a href =""><img src ="assets/img/chevron-right2.png"></a> -->
+                    <a href =""><img class ="prev" src ="assets/img/chevron-left.png"></a>
+                    <a href =""><img class ="next" src ="assets/img/chevron-right2.png"></a>
+                    
                   </div>
                   
-                  <!-- Portfolio Modal - Text -->
+                  Portfolio Modal - Text 
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
                   </button>
                 </div>
-              </div>
+              </div> -->
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -389,24 +406,43 @@
           
           <div class="modal-body text-center">
             <div class="container">
-              <div class="row justify-content-center">
+              <div id="container" class="cf">
+                <div id="main" role="main">
+                    <section class="slider">
+                      <div class="flexslider">
+                        <ul class="slides">
+                          <li>
+                            <img src="assets/img/baekjoon_1.png" />
+                          </li>
+                          <li>
+                            <img src="assets/img/baekjoon_2.png" />
+                          </li>
+                          <li>
+                            <img src="assets/img/baekjoon_3.png" />
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              <!-- <div class="row justify-content-center">
                 <div class="col-lg-10" style="height: 600px;">
-                  <!-- Portfolio Modal - Title -->
+                   Portfolio Modal - Title 
                   <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3">BAEKJOON STORAGE</h2>
                  
-                  <!-- Portfolio Modal - Image -->
+                  Portfolio Modal - Image 
                   <div>
                     <img id="baekjoonimg2" class="img-fluid rounded mb-2" style="height: 400px;" src="assets/img/baekjoon_1.png" alt="">
                     <button type="button" class="btn btn-dark prev">이전</button>
                     <button type="button" class="btn btn-dark next">다음</button>
                   </div>
-                  <!-- Portfolio Modal - Text -->
+                   Portfolio Modal - Text 
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
                   </button>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -475,7 +511,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/main2.js"></script>
 
   <!-- Contact Form JavaScript-->
   <script src="assets/js/jqBootstrapValidation.js"></script>
@@ -484,8 +519,25 @@
   <!-- Custom scripts for this template -->
   <script src="assets/js/freelancer.min.js"></script>
 
-  <script>
-    
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+  <!-- FlexSlider -->
+  <script defer src="../jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+  <!-- <script>
     $("#tostringimg").click(function(){
       var cnt = 1; //버튼을 찾아가기 위해
       $("button").click(function(){
@@ -535,6 +587,6 @@
         $("#baekjoonimg2").attr("src","assets/img/baekjoon_"+cnt+".png")
       })
     })
-  </script>
+  </script> -->
 </body>
 </html>
