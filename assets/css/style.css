@@ -974,8 +974,16 @@ a:hover {
   width: 800px;
   height: 0px;
   margin: 0 auto;
- 
 }
+
+.introduce{
+  font-size: 1rem;
+}
+
+.billibord{
+  width: 100%;
+}
+
 
 .modal-content{
   width: 900px;
