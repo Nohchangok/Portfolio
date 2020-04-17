@@ -980,6 +980,10 @@ a:hover {
   font-size: 1rem;
 }
 
+.meintro{
+  float: left;
+}
+
 .billibord{
   width: 100%;
 }
@@ -1014,6 +1018,7 @@ a:hover {
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  
 }
 
 @media (min-width: 768px) {
